@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#body{
+    background-color: #DDF4E7; 
+    /* background: linear-gradient(#FFD93D , red); */
+}
+#clr1{
+    color: white;   
+}
+.nav1{
+    background-color: #26667F;
+}
+.main{
+    height: 40vw;
+    width: 100%;
+    background-image: url(/background.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-position: bottom;
+    color: blue;
+    padding: 5vw;
+}
+.text{
+    height: 70%;
+    width: 30%;
+}
+.text h1{
+    font-size: 4vw;
+    color: white;
+}
+.text p{
+    font-size: 2vw;
+    color: rgb(85, 86, 84);
+}
+.text button, #button{
+    font-size: 1.5vw;
+    border: 2px solid #26667F;
+    color: #26667F;
+}
+.text button:hover{
+    border: none;
+    background-color: red;
+    color: rgb(255, 255, 255);
+}
+#button:hover{
+    border: none;
+    background-color: red;
+    color: rgb(255, 255, 255);
+}
+/* ////////////////////////////////////////////////////////////////////////////////// */
+.place-main-div{
+    width: 100%;
+    padding: 2%;
+}
+.places-details-info{
+    height: 38vw;
+    width: 100%;
+    border-radius: 4vw;
+    display: flex;
+    background-color: white;
+    padding: 4vw;
+    justify-content: space-between;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+
+    
+}
+.background-image-place, .place-text-area{
+    height: 95%;
+    width: 48%;
+    overflow: hidden;
+}
+.place-text-area{
+    font-size: 3vw;
+    word-spacing: 0.7vw;
+    line-height: 1.3;
+    overflow: auto;
+    color: rgb(85, 86, 84);
+}
+.background-image-place{
+    /* border: 4px solid #003d5b; */
+    border-radius: 3vw;
+    transition-duration: 300ms;
+}
+.background-image-place img{
+    transition-duration: 500ms;
+}
+.background-image-place img:hover{
+    scale: 1.05;
+}
+.background-image-place img{
+    height: 100%;
+    width: 100%;
+}
+.card-body-1{
+    height: 30vw;
+    min-height: 260px;
+    width: 22vw;
+    min-width: 180px;
+    background-color: rgba(0, 0, 0, 0.381);
+    border-radius: 2vw;
+    overflow: hidden;
+}
+.card-text{
+    height: 50%;
+    width: 100%;
+    line-height: 1.5vw;
+    padding: 2vw;
+
+}
+.card-text h5{
+    font-size: 20px;
+}
+.card-text p{
+    font-size: 16px;
+}
+.image-card{
+    height: 50%;
+    width: 100%;
+}
+.image-card img{
+    height: 100%;
+    width: 100%;
+}
+
+.products{
+    margin-top: 2vw;
+    padding: 2vw;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.card-main{
+    height: 30vw;
+    min-height: 400px;
+    width: 22vw;
+    min-width: 280px;
+    border-radius: 2vw;
+    overflow: hidden;
+}
+.card-image2{
+    height: 50%;
+    width: 100%;
+    position: relative;
+}
+.card-image2 img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.card-text-main1{
+    background-color: rgba(0, 0, 0, 0.276);
+    padding: 1vw;
+    height: 50%;
+    width: 100%;
+}
+.card-text-main1 h5{
+    font-size: 22px;
+}
+.card-text-main1 p{
+    font-size: 18px;
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////// */
+
+.image-card1{
+    height: 30vw;
+    width: 30%;
+    border-radius: 1vw;
+    overflow: hidden;
+}
+.image-card1 img{
+    height: 100%;
+    width: 100%;
+}
+.card-details{
+    /* height: 30vw; */
+    width: 30%;
+    border-radius: 1vw;
+    padding: 1vw;
+    background-color: white;
+    overflow: auto;
+}
+.card-details h5{
+
+    font-size: 18px;
+
+}
+.card-details p{
+
+    font-size: 14px;
+
+}
+
+.footer{
+    /* height: 70vh; */
+    width: 100%;
+    background-color: rgb(46, 46, 46);
+    padding: 2vw;
+    color: white;
+    margin-top: 2vw;
+}
+.footer-inside{
+    height: 100%;
+    width: 30%;
+}
+#about-footer{
+    text-decoration: none;
+    color: white;
+}
+
+
+.extra-card{
+    margin: 2vw 0 2vw 0;
+}
+.location{
+    /* height: 20vw; */
+    width: 100%;
+    color:white;
+    /* border: 1px solid black; */
+    background-color: #00798c;
+    padding: 2%;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    border-radius: 1vw;
+    display: flex;
+    box-shadow: 0 0 15px #003d5b;
+}
+.location-details h2{
+    font-size: 18px;
+}
+.location-details p{
+    font-size: 14px;
+}
+.location-details{
+    height: 100%;
+    width: 40%;
+    /* background-color: #003d5b; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.location-map{
+    height: 100%;
+    width:60%;
+    /* background-color: #d1495b; */
+}
+#list-item-form{
+    color: rgb(255, 255, 255);
+    margin-top: 2vw;
+    width: 50vw;
+    /* border: 2px double black; */
+    padding: 2vw;
+    border-radius: 2vw;
+    background-color: rgba(34, 98, 109, 0.858);
+}
+.list-1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* //////////////////////////////////////////////////////// */
+
+.lgin{
+    color: white;
+}
+
+
+@media (min-width: 500px) and (max-width:800px){
+    .text{
+    height: 70%;
+    width: 50%;
+}
+.main{
+    height: 50vw;
+}
+
+.text h1{
+    font-size: 5vw;
+    color: white;
+}
+.text p{
+    font-size: 3vw;
+}
+.text button, #button{
+    font-size: 2vw;
+}
+#list-item-form{
+    width: 75%;
+}
+
+}
+
+@media (min-width: 10px) and (max-width:500px){
+
+
+    .text{
+    height: 70%;
+    width: 80%;
+}
+.main{
+    height: 60vw;
+}
+
+.text h1{
+    font-size: 6vw;
+    color: white;
+}
+.text p{
+    font-size: 4vw;
+}
+.text button, #button{
+    font-size: 2.5vw;
+}
+
+.places-details-info{
+    flex-direction: column;
+        height: 80vw;
+
+}
+.background-image-place{
+    height: 58%;
+    width: 95%;
+}
+.place-text-area{
+    font-size: 4vw;
+    height: 38%;
+    width: 95%;
+}
+#button{
+    margin: auto;
+}
+.location{
+    flex-direction: column;
+}
+.location-map{
+    width: 98%;
+}
+.location-details{
+    width: 98%;
+}
+#list-item-form{
+    width: 98%;
+}
+}
+@media (max-width:659px) {
+    .place-main-div{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .image-card1{
+        width: 98%;
+        height: 60vw;
+    }
+    .card-details{
+    
+    width: 98%;
+    }
+}
